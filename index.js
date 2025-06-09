@@ -96,5 +96,5 @@ server.delete("/user/:id", (req,res) => {
     database.splice(idx,1);
     res.send(database)
 })
-server.listen(3000, () => {console.log("서버 실행됨")});
+server.listen(8000, () => {console.log("서버 실행됨")});
 
